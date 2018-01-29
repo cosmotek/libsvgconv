@@ -6,3 +6,18 @@
  and enjoy!
  
  
+## usage examples
+
+LuaJIT
+```lua
+
+local svgconv = require("svgconv")
+
+-- convert simply takes an input file, output file and a table with the scaling factors (x, y floats)
+svgconv.convert(input_svg_file, output_png_file, {x: 1.0, y: 1.0})
+```
+
+C
+```c
+// no header file implemented yet, I would recommend just cloning the methods into your own code
+```
